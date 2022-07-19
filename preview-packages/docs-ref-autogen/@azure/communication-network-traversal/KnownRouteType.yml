@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownRouteType
+uid: '@azure/communication-network-traversal.KnownRouteType'
+package: '@azure/communication-network-traversal'
+summary: >-
+  Known values of <xref:@azure/communication-network-traversal.RouteType> that
+  the service accepts.
+fullName: KnownRouteType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Any
+    uid: '@azure/communication-network-traversal.KnownRouteType.Any'
+    package: '@azure/communication-network-traversal'
+    summary: ''
+  - name: Nearest
+    uid: '@azure/communication-network-traversal.KnownRouteType.Nearest'
+    package: '@azure/communication-network-traversal'
+    summary: ''

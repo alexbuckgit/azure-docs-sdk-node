@@ -35,7 +35,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'value?: EnvironmentVersionData[]'
+      content: 'value?: EnvironmentVersion[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-machinelearning.EnvironmentVersionData" />[]'
+        type: '<xref uid="@azure/arm-machinelearning.EnvironmentVersion" />[]'

@@ -23,7 +23,8 @@ methods:
     syntax:
       content: >-
         function get(options?: GetLedgerEntryParameters):
-        Promise<GetLedgerEntry200Response | GetLedgerEntrydefaultResponse>
+        StreamableMethod<GetLedgerEntry200Response |
+        GetLedgerEntrydefaultResponse>
       parameters:
         - id: options
           type: >-
@@ -33,7 +34,7 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetLedgerEntry200Response" /> |
           <xref
           uid="@azure-rest/confidential-ledger.GetLedgerEntrydefaultResponse"

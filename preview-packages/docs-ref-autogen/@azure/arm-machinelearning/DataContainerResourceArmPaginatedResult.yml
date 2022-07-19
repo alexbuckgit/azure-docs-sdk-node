@@ -34,7 +34,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'value?: DataContainerData[]'
+      content: 'value?: DataContainer[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-machinelearning.DataContainerData" />[]'
+        type: '<xref uid="@azure/arm-machinelearning.DataContainer" />[]'

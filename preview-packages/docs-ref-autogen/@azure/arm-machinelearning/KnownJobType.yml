@@ -10,19 +10,15 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 fields:
-  - name: AutoML
-    uid: '@azure/arm-machinelearning.KnownJobType.AutoML'
-    package: '@azure/arm-machinelearning'
-    summary: ''
   - name: Command
     uid: '@azure/arm-machinelearning.KnownJobType.Command'
     package: '@azure/arm-machinelearning'
-    summary: ''
+    summary: Command
   - name: Pipeline
     uid: '@azure/arm-machinelearning.KnownJobType.Pipeline'
     package: '@azure/arm-machinelearning'
-    summary: ''
+    summary: Pipeline
   - name: Sweep
     uid: '@azure/arm-machinelearning.KnownJobType.Sweep'
     package: '@azure/arm-machinelearning'
-    summary: ''
+    summary: Sweep

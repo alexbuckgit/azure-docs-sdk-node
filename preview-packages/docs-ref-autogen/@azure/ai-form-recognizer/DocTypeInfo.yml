@@ -12,7 +12,7 @@ properties:
   - name: buildMode
     uid: '@azure/ai-form-recognizer.DocTypeInfo.buildMode'
     package: '@azure/ai-form-recognizer'
-    summary: Custom model build mode.
+    summary: Custom document model build mode.
     fullName: buildMode
     remarks: ''
     isPreview: false
@@ -25,7 +25,7 @@ properties:
   - name: description
     uid: '@azure/ai-form-recognizer.DocTypeInfo.description'
     package: '@azure/ai-form-recognizer'
-    summary: Model description.
+    summary: Document Model description.
     fullName: description
     remarks: ''
     isPreview: false

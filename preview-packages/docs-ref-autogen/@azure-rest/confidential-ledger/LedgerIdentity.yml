@@ -22,16 +22,16 @@ properties:
       return:
         description: ''
         type: string
-  - name: ledgerTlsCertificate
-    uid: '@azure-rest/confidential-ledger.LedgerIdentity.ledgerTlsCertificate'
+  - name: ledgerIdentityCertificate
+    uid: '@azure-rest/confidential-ledger.LedgerIdentity.ledgerIdentityCertificate'
     package: '@azure-rest/confidential-ledger'
     summary: ''
-    fullName: ledgerTlsCertificate
+    fullName: ledgerIdentityCertificate
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ledgerTlsCertificate: string'
+      content: 'ledgerIdentityCertificate: string'
       return:
         description: ''
         type: string

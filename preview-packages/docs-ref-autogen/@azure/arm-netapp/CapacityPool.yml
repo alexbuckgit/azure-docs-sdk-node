@@ -1,0 +1,22 @@
+### YamlMime:TSTypeAlias
+name: CapacityPool
+uid: '@azure/arm-netapp.CapacityPool'
+package: '@azure/arm-netapp'
+summary: Capacity pool resource
+fullName: CapacityPool
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type CapacityPool = TrackedResource & {
+    coolAccess?: undefined | false | true,
+    encryptionType?: EncryptionType,
+    etag?: undefined | string,
+    poolId?: undefined | string,
+    provisioningState?: undefined | string,
+    qosType?: QosType,
+    serviceLevel: ServiceLevel,
+    size: number,
+    totalThroughputMibps?: undefined | number,
+    utilizedThroughputMibps?: undefined | number,
+  }

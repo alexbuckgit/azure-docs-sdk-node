@@ -59,7 +59,16 @@ syntax: |
     | SapCloudForCustomerLinkedService
     | SapEccLinkedService
     | SapOpenHubLinkedService
+    | SapOdpLinkedService
     | RestServiceLinkedService
+    | TeamDeskLinkedService
+    | QuickbaseLinkedService
+    | SmartsheetLinkedService
+    | ZendeskLinkedService
+    | DataworldLinkedService
+    | AppFiguresLinkedService
+    | AsanaLinkedService
+    | TwilioLinkedService
     | AmazonS3LinkedService
     | AmazonRedshiftLinkedService
     | CustomDataSourceLinkedService

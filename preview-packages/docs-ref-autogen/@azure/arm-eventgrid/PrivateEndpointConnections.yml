@@ -10,7 +10,7 @@ isDeprecated: false
 type: interface
 methods:
   - name: >-
-      beginDelete(string, ParentType, string, string,
+      beginDelete(string, PrivateEndpointConnectionsParentType, string, string,
       PrivateEndpointConnectionsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.beginDelete'
     package: '@azure/arm-eventgrid'
@@ -22,8 +22,9 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function beginDelete(resourceGroupName: string, parentType: ParentType,
-        parentName: string, privateEndpointConnectionName: string, options?:
+        function beginDelete(resourceGroupName: string, parentType:
+        PrivateEndpointConnectionsParentType, parentName: string,
+        privateEndpointConnectionName: string, options?:
         PrivateEndpointConnectionsDeleteOptionalParams):
         Promise<PollerLike<PollOperationState<void>, void>>
       parameters:
@@ -31,7 +32,9 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or
@@ -56,8 +59,8 @@ methods:
         description: ''
         type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
   - name: >-
-      beginDeleteAndWait(string, ParentType, string, string,
-      PrivateEndpointConnectionsDeleteOptionalParams)
+      beginDeleteAndWait(string, PrivateEndpointConnectionsParentType, string,
+      string, PrivateEndpointConnectionsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.beginDeleteAndWait'
     package: '@azure/arm-eventgrid'
     summary: >-
@@ -69,14 +72,17 @@ methods:
     syntax:
       content: >-
         function beginDeleteAndWait(resourceGroupName: string, parentType:
-        ParentType, parentName: string, privateEndpointConnectionName: string,
-        options?: PrivateEndpointConnectionsDeleteOptionalParams): Promise<void>
+        PrivateEndpointConnectionsParentType, parentName: string,
+        privateEndpointConnectionName: string, options?:
+        PrivateEndpointConnectionsDeleteOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or
@@ -101,8 +107,8 @@ methods:
         description: ''
         type: Promise&lt;void&gt;
   - name: >-
-      beginUpdate(string, ParentType, string, string, PrivateEndpointConnection,
-      PrivateEndpointConnectionsUpdateOptionalParams)
+      beginUpdate(string, PrivateEndpointConnectionsParentType, string, string,
+      PrivateEndpointConnection, PrivateEndpointConnectionsUpdateOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.beginUpdate'
     package: '@azure/arm-eventgrid'
     summary: >-
@@ -113,9 +119,10 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function beginUpdate(resourceGroupName: string, parentType: ParentType,
-        parentName: string, privateEndpointConnectionName: string,
-        privateEndpointConnection: PrivateEndpointConnection, options?:
+        function beginUpdate(resourceGroupName: string, parentType:
+        PrivateEndpointConnectionsParentType, parentName: string,
+        privateEndpointConnectionName: string, privateEndpointConnection:
+        PrivateEndpointConnection, options?:
         PrivateEndpointConnectionsUpdateOptionalParams):
         Promise<PollerLike<PollOperationState<PrivateEndpointConnectionsUpdateResponse>,
         PrivateEndpointConnectionsUpdateResponse>>
@@ -124,7 +131,9 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or
@@ -157,8 +166,9 @@ methods:
           uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse"
           />&gt;&gt;
   - name: >-
-      beginUpdateAndWait(string, ParentType, string, string,
-      PrivateEndpointConnection, PrivateEndpointConnectionsUpdateOptionalParams)
+      beginUpdateAndWait(string, PrivateEndpointConnectionsParentType, string,
+      string, PrivateEndpointConnection,
+      PrivateEndpointConnectionsUpdateOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.beginUpdateAndWait'
     package: '@azure/arm-eventgrid'
     summary: >-
@@ -170,8 +180,9 @@ methods:
     syntax:
       content: >-
         function beginUpdateAndWait(resourceGroupName: string, parentType:
-        ParentType, parentName: string, privateEndpointConnectionName: string,
-        privateEndpointConnection: PrivateEndpointConnection, options?:
+        PrivateEndpointConnectionsParentType, parentName: string,
+        privateEndpointConnectionName: string, privateEndpointConnection:
+        PrivateEndpointConnection, options?:
         PrivateEndpointConnectionsUpdateOptionalParams):
         Promise<PrivateEndpointConnectionsUpdateResponse>
       parameters:
@@ -179,7 +190,9 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or
@@ -210,7 +223,7 @@ methods:
           uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse"
           />&gt;
   - name: >-
-      get(string, ParentType, string, string,
+      get(string, PrivateEndpointConnectionsParentType, string, string,
       PrivateEndpointConnectionsGetOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.get'
     package: '@azure/arm-eventgrid'
@@ -222,8 +235,9 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function get(resourceGroupName: string, parentType: ParentType,
-        parentName: string, privateEndpointConnectionName: string, options?:
+        function get(resourceGroupName: string, parentType:
+        PrivateEndpointConnectionsParentType, parentName: string,
+        privateEndpointConnectionName: string, options?:
         PrivateEndpointConnectionsGetOptionalParams):
         Promise<PrivateEndpointConnectionsGetResponse>
       parameters:
@@ -231,7 +245,9 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or
@@ -259,7 +275,7 @@ methods:
           uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse"
           />&gt;
   - name: >-
-      listByResource(string, ParentType, string,
+      listByResource(string, PrivateEndpointConnectionsParentType, string,
       PrivateEndpointConnectionsListByResourceOptionalParams)
     uid: '@azure/arm-eventgrid.PrivateEndpointConnections.listByResource'
     package: '@azure/arm-eventgrid'
@@ -272,7 +288,7 @@ methods:
     syntax:
       content: >-
         function listByResource(resourceGroupName: string, parentType:
-        ParentType, parentName: string, options?:
+        PrivateEndpointConnectionsParentType, parentName: string, options?:
         PrivateEndpointConnectionsListByResourceOptionalParams):
         PagedAsyncIterableIterator<PrivateEndpointConnection>
       parameters:
@@ -280,7 +296,9 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.ParentType" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsParentType" />
           description: >-
             The type of the parent resource. This can be either \'topics\',
             \'domains\', or

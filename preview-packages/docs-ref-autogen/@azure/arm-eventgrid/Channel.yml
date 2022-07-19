@@ -12,7 +12,6 @@ syntax: |
     channelType?: ChannelType,
     expirationTimeIfNotActivatedUtc?: Date,
     messageForActivation?: undefined | string,
-    partnerDestinationInfo?: PartnerDestinationInfoUnion,
     partnerTopicInfo?: PartnerTopicInfo,
     provisioningState?: ChannelProvisioningState,
     readinessState?: ReadinessState,

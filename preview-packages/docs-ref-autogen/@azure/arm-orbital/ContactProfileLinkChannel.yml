@@ -100,3 +100,16 @@ properties:
       return:
         description: ''
         type: undefined | string
+  - name: name
+    uid: '@azure/arm-orbital.ContactProfileLinkChannel.name'
+    package: '@azure/arm-orbital'
+    summary: Channel name
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string

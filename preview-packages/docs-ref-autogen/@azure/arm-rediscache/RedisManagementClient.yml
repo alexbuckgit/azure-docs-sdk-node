@@ -41,6 +41,45 @@ constructors:
           description: |
             The parameter options
 properties:
+  - name: $host
+    uid: '@azure/arm-rediscache.RedisManagementClient.$host'
+    package: '@azure/arm-rediscache'
+    summary: ''
+    fullName: $host
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$host: string'
+      return:
+        description: ''
+        type: string
+  - name: apiVersion
+    uid: '@azure/arm-rediscache.RedisManagementClient.apiVersion'
+    package: '@azure/arm-rediscache'
+    summary: ''
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion: string'
+      return:
+        description: ''
+        type: string
+  - name: asyncOperationStatus
+    uid: '@azure/arm-rediscache.RedisManagementClient.asyncOperationStatus'
+    package: '@azure/arm-rediscache'
+    summary: ''
+    fullName: asyncOperationStatus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'asyncOperationStatus: AsyncOperationStatus'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-rediscache.AsyncOperationStatus" />
   - name: firewallRules
     uid: '@azure/arm-rediscache.RedisManagementClient.firewallRules'
     package: '@azure/arm-rediscache'
@@ -132,46 +171,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-rediscache.Redis" />
-inheritedProperties:
-  - name: $host
-    uid: '@azure/arm-rediscache.RedisManagementClient.$host'
-    package: '@azure/arm-rediscache'
-    summary: ''
-    fullName: $host
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: '$host: string'
-      return:
-        description: ''
-        type: string
-  - name: apiVersion
-    uid: '@azure/arm-rediscache.RedisManagementClient.apiVersion'
-    package: '@azure/arm-rediscache'
-    summary: ''
-    fullName: apiVersion
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'apiVersion: string'
-      return:
-        description: ''
-        type: string
-  - name: pipeline
-    uid: '@azure/arm-rediscache.RedisManagementClient.pipeline'
-    package: '@azure/arm-rediscache'
-    summary: The pipeline used by this client to make requests
-    fullName: pipeline
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'pipeline: Pipeline'
-      return:
-        description: ''
-        type: Pipeline
   - name: subscriptionId
     uid: '@azure/arm-rediscache.RedisManagementClient.subscriptionId'
     package: '@azure/arm-rediscache'
@@ -185,6 +184,20 @@ inheritedProperties:
       return:
         description: ''
         type: string
+inheritedProperties:
+  - name: pipeline
+    uid: '@azure/arm-rediscache.RedisManagementClient.pipeline'
+    package: '@azure/arm-rediscache'
+    summary: The pipeline used by this client to make requests
+    fullName: pipeline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pipeline: Pipeline'
+      return:
+        description: ''
+        type: Pipeline
 inheritedMethods:
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
     uid: '@azure/arm-rediscache.RedisManagementClient.sendOperationRequest'
@@ -228,4 +241,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-rediscache.RedisManagementClientContext" />
+extends: ServiceClient

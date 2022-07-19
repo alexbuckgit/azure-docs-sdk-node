@@ -2,13 +2,30 @@
 name: SpacecraftLink
 uid: '@azure/arm-orbital.SpacecraftLink'
 package: '@azure/arm-orbital'
-summary: Spacecraft Link
+summary: Authorized Ground Stations for the link
 fullName: SpacecraftLink
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: authorizations
+    uid: '@azure/arm-orbital.SpacecraftLink.authorizations'
+    package: '@azure/arm-orbital'
+    summary: >-
+      Authorized Ground Stations
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: authorizations
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'authorizations?: AuthorizedGroundstation[]'
+      return:
+        description: ''
+        type: '<xref uid="@azure/arm-orbital.AuthorizedGroundstation" />[]'
   - name: bandwidthMHz
     uid: '@azure/arm-orbital.SpacecraftLink.bandwidthMHz'
     package: '@azure/arm-orbital'
@@ -48,6 +65,19 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-orbital.Direction" />
+  - name: name
+    uid: '@azure/arm-orbital.SpacecraftLink.name'
+    package: '@azure/arm-orbital'
+    summary: Link name
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
   - name: polarization
     uid: '@azure/arm-orbital.SpacecraftLink.polarization'
     package: '@azure/arm-orbital'

@@ -2,10 +2,23 @@
 name: SendStatus
 uid: '@azure/communication-email.SendStatus'
 package: '@azure/communication-email'
-summary: Defines values for SendStatus.
+summary: >-
+  Defines values for SendStatus. \
+
+  <xref:KnownSendStatus> can be used interchangeably with SendStatus,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+
+  **queued**: The message has passed basic validations and has been queued to be
+  processed further. \
+
+  **outForDelivery**: The message has been processed and is now out for
+  delivery. \
+
+  **dropped**: The message could not be processed and was dropped.
 fullName: SendStatus
 remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: |
-  type SendStatus = "queued" | "outForDelivery" | "dropped"
+  type SendStatus = string

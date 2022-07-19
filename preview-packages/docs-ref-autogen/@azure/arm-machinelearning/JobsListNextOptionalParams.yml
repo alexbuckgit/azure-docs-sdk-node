@@ -35,32 +35,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-machinelearning.ListViewType" />
-  - name: scheduled
-    uid: '@azure/arm-machinelearning.JobsListNextOptionalParams.scheduled'
-    package: '@azure/arm-machinelearning'
-    summary: Indicator whether the job is scheduled job.
-    fullName: scheduled
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'scheduled?: undefined | false | true'
-      return:
-        description: ''
-        type: undefined | false | true
-  - name: scheduleId
-    uid: '@azure/arm-machinelearning.JobsListNextOptionalParams.scheduleId'
-    package: '@azure/arm-machinelearning'
-    summary: The scheduled id for listing the job triggered from
-    fullName: scheduleId
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'scheduleId?: undefined | string'
-      return:
-        description: ''
-        type: undefined | string
   - name: skip
     uid: '@azure/arm-machinelearning.JobsListNextOptionalParams.skip'
     package: '@azure/arm-machinelearning'

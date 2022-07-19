@@ -2,10 +2,17 @@
 name: EmailImportance
 uid: '@azure/communication-email.EmailImportance'
 package: '@azure/communication-email'
-summary: Defines values for EmailImportance.
+summary: |-
+  Defines values for EmailImportance. \
+  <xref:KnownEmailImportance> can be used interchangeably with EmailImportance,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+  **high** \
+  **normal** \
+  **low**
 fullName: EmailImportance
 remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: |
-  type EmailImportance = "high" | "normal" | "low"
+  type EmailImportance = string

@@ -21,7 +21,8 @@ methods:
     syntax:
       content: >-
         function get(options?: GetEnclaveQuotesParameters):
-        Promise<GetEnclaveQuotes200Response | GetEnclaveQuotesdefaultResponse>
+        StreamableMethod<GetEnclaveQuotes200Response |
+        GetEnclaveQuotesdefaultResponse>
       parameters:
         - id: options
           type: >-
@@ -31,7 +32,7 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetEnclaveQuotes200Response" /> |
           <xref
           uid="@azure-rest/confidential-ledger.GetEnclaveQuotesdefaultResponse"

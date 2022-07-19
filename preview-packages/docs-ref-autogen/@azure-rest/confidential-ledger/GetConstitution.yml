@@ -21,7 +21,8 @@ methods:
     syntax:
       content: >-
         function get(options?: GetConstitutionParameters):
-        Promise<GetConstitution200Response | GetConstitutiondefaultResponse>
+        StreamableMethod<GetConstitution200Response |
+        GetConstitutiondefaultResponse>
       parameters:
         - id: options
           type: >-
@@ -31,7 +32,7 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetConstitution200Response" /> |
           <xref
           uid="@azure-rest/confidential-ledger.GetConstitutiondefaultResponse"

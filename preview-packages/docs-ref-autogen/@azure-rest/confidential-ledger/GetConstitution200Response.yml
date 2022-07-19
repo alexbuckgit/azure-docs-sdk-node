@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: Constitution'
+      content: 'body: ConstitutionOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/confidential-ledger.Constitution" />
+        type: <xref uid="@azure-rest/confidential-ledger.ConstitutionOutput" />
   - name: status
     uid: '@azure-rest/confidential-ledger.GetConstitution200Response.status'
     package: '@azure-rest/confidential-ledger'

@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: Manager
+uid: '@azure/arm-storsimple8000series.Manager'
+package: '@azure/arm-storsimple8000series'
+summary: The StorSimple Manager.
+fullName: Manager
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type Manager = Resource & {
+    cisIntrinsicSettings?: ManagerIntrinsicSettings,
+    etag?: undefined | string,
+    provisioningState?: undefined | string,
+    sku?: ManagerSku,
+  }

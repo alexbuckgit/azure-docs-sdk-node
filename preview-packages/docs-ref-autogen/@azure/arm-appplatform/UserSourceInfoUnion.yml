@@ -12,4 +12,3 @@ syntax: |
     | UserSourceInfo
     | UploadedUserSourceInfoUnion
     | BuildResultUserSourceInfo
-    | CustomContainerUserSourceInfo

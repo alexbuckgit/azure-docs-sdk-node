@@ -37,7 +37,7 @@ methods:
           Promise&lt;<xref
           uid="@azure/arm-orbital.AvailableGroundStationsGetResponse" />&gt;
   - name: >-
-      listByCapability(Enum6,
+      listByCapability(CapabilityParameter,
       AvailableGroundStationsListByCapabilityOptionalParams)
     uid: '@azure/arm-orbital.AvailableGroundStations.listByCapability'
     package: '@azure/arm-orbital'
@@ -47,12 +47,12 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listByCapability(capability: Enum6, options?:
+        function listByCapability(capability: CapabilityParameter, options?:
         AvailableGroundStationsListByCapabilityOptionalParams):
         PagedAsyncIterableIterator<AvailableGroundStation>
       parameters:
         - id: capability
-          type: <xref uid="@azure/arm-orbital.Enum6" />
+          type: <xref uid="@azure/arm-orbital.CapabilityParameter" />
           description: Ground Station Capability
         - id: options
           type: >-

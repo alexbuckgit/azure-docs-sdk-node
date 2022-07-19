@@ -76,6 +76,19 @@ inheritedProperties:
       return:
         description: ''
         type: HttpClient
+  - name: keepAliveOptions
+    uid: '@azure/search-documents.SearchClientOptions.keepAliveOptions'
+    package: '@azure/search-documents'
+    summary: Options to disable keep alive.
+    fullName: keepAliveOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keepAliveOptions?: KeepAliveOptions'
+      return:
+        description: ''
+        type: KeepAliveOptions
   - name: proxyOptions
     uid: '@azure/search-documents.SearchClientOptions.proxyOptions'
     package: '@azure/search-documents'
@@ -141,4 +154,4 @@ inheritedProperties:
       return:
         description: ''
         type: UserAgentPolicyOptions
-extends: CommonClientOptions
+extends: CommonClientOptions & ExtendedClientOptions

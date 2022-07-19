@@ -12,7 +12,7 @@ properties:
   - name: count
     uid: '@azure/ai-form-recognizer.CustomDocumentModelsInfo.count'
     package: '@azure/ai-form-recognizer'
-    summary: Number of custom models in the current resource.
+    summary: Number of custom document models in the current resource.
     fullName: count
     remarks: ''
     isPreview: false
@@ -25,7 +25,9 @@ properties:
   - name: limit
     uid: '@azure/ai-form-recognizer.CustomDocumentModelsInfo.limit'
     package: '@azure/ai-form-recognizer'
-    summary: Maximum number of custom models supported in the current resource.
+    summary: >-
+      Maximum number of custom document models supported in the current
+      resource.
     fullName: limit
     remarks: ''
     isPreview: false

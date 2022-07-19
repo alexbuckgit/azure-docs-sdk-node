@@ -197,28 +197,28 @@ methods:
         type: >-
           Promise&lt;<xref
           uid="@azure/communication-identity.CommunicationAccessToken" />&gt;
-  - name: 'getTokenForTeamsUser(string, OperationOptions)'
+  - name: getTokenForTeamsUser(GetTokenForTeamsUserOptions)
     uid: >-
       @azure/communication-identity.CommunicationIdentityClient.getTokenForTeamsUser
     package: '@azure/communication-identity'
     summary: >-
-      Exchanges an AAD access token of a Teams user for a new Communication
+      Exchanges an Azure AD access token of a Teams user for a new Communication
       Identity access token with a matching expiration time.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
-        function getTokenForTeamsUser(teamsUserAadToken: string, options?:
-        OperationOptions): Promise<CommunicationAccessToken>
+        function getTokenForTeamsUser(options: GetTokenForTeamsUserOptions):
+        Promise<CommunicationAccessToken>
       parameters:
-        - id: teamsUserAadToken
-          type: string
-          description: ''
         - id: options
-          type: OperationOptions
-          description: |
-            Additional options for the request.
+          type: >-
+            <xref
+            uid="@azure/communication-identity.GetTokenForTeamsUserOptions" />
+          description: >
+            Options used to exchange an Azure AD access token of a Teams user
+            for a new Communication Identity access token.
       return:
         description: ''
         type: >-

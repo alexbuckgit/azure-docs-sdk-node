@@ -2,81 +2,49 @@
 name: ScheduleBase
 uid: '@azure/arm-machinelearning.ScheduleBase'
 package: '@azure/arm-machinelearning'
-summary: Base definition of a schedule
+summary: ''
 fullName: ScheduleBase
 remarks: ''
 isPreview: false
 isDeprecated: false
 type: interface
 properties:
-  - name: endTime
-    uid: '@azure/arm-machinelearning.ScheduleBase.endTime'
+  - name: id
+    uid: '@azure/arm-machinelearning.ScheduleBase.id'
     package: '@azure/arm-machinelearning'
-    summary: |-
-      Specifies end time of schedule in ISO 8601 format.
-      If not present, the schedule will run indefinitely
-    fullName: endTime
+    summary: ''
+    fullName: id
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endTime?: Date'
-      return:
-        description: ''
-        type: Date
-  - name: scheduleStatus
-    uid: '@azure/arm-machinelearning.ScheduleBase.scheduleStatus'
-    package: '@azure/arm-machinelearning'
-    summary: Specifies the schedule's status
-    fullName: scheduleStatus
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'scheduleStatus?: ScheduleStatus'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-machinelearning.ScheduleStatus" />
-  - name: scheduleType
-    uid: '@azure/arm-machinelearning.ScheduleBase.scheduleType'
-    package: '@azure/arm-machinelearning'
-    summary: >-
-      Polymorphic discriminator, which specifies the different types this object
-      can be
-    fullName: scheduleType
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'scheduleType: "Cron" | "Recurrence"'
-      return:
-        description: ''
-        type: '"Cron" | "Recurrence"'
-  - name: startTime
-    uid: '@azure/arm-machinelearning.ScheduleBase.startTime'
-    package: '@azure/arm-machinelearning'
-    summary: Specifies start time of schedule in ISO 8601 format.
-    fullName: startTime
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'startTime?: Date'
-      return:
-        description: ''
-        type: Date
-  - name: timeZone
-    uid: '@azure/arm-machinelearning.ScheduleBase.timeZone'
-    package: '@azure/arm-machinelearning'
-    summary: |-
-      Specifies time zone in which the schedule runs.
-      TimeZone should follow Windows time zone format.
-    fullName: timeZone
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'timeZone?: undefined | string'
+      content: 'id?: undefined | string'
       return:
         description: ''
         type: undefined | string
+  - name: provisioningStatus
+    uid: '@azure/arm-machinelearning.ScheduleBase.provisioningStatus'
+    package: '@azure/arm-machinelearning'
+    summary: ''
+    fullName: provisioningStatus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provisioningStatus?: ScheduleProvisioningState'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-machinelearning.ScheduleProvisioningState" />
+  - name: status
+    uid: '@azure/arm-machinelearning.ScheduleBase.status'
+    package: '@azure/arm-machinelearning'
+    summary: ''
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status?: ScheduleStatus'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-machinelearning.ScheduleStatus" />

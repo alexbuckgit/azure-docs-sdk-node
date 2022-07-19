@@ -10,10 +10,10 @@ isDeprecated: false
 syntax: |
   type JobInputUnion =
     | JobInput
-    | MLTableJobInput
     | CustomModelJobInput
     | LiteralJobInput
     | MLFlowModelJobInput
+    | MLTableJobInput
     | TritonModelJobInput
     | UriFileJobInput
     | UriFolderJobInput

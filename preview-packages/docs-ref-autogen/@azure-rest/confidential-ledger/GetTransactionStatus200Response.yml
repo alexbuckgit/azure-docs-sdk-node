@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: TransactionStatus'
+      content: 'body: TransactionStatusOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/confidential-ledger.TransactionStatus" />
+        type: <xref uid="@azure-rest/confidential-ledger.TransactionStatusOutput" />
   - name: status
     uid: '@azure-rest/confidential-ledger.GetTransactionStatus200Response.status'
     package: '@azure-rest/confidential-ledger'

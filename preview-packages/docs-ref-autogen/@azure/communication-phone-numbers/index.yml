@@ -25,4 +25,5 @@ typeAliases:
   - '@azure/communication-phone-numbers.GetPurchasedPhoneNumberOptions'
   - '@azure/communication-phone-numbers.PhoneNumberAssignmentType'
   - '@azure/communication-phone-numbers.PhoneNumberCapabilityType'
+  - '@azure/communication-phone-numbers.PhoneNumberSource'
   - '@azure/communication-phone-numbers.PhoneNumberType'

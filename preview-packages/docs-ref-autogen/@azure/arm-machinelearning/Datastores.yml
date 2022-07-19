@@ -10,7 +10,7 @@ isDeprecated: false
 type: interface
 methods:
   - name: >-
-      createOrUpdate(string, string, string, DatastoreData,
+      createOrUpdate(string, string, string, Datastore,
       DatastoresCreateOrUpdateOptionalParams)
     uid: '@azure/arm-machinelearning.Datastores.createOrUpdate'
     package: '@azure/arm-machinelearning'
@@ -21,7 +21,7 @@ methods:
     syntax:
       content: >-
         function createOrUpdate(resourceGroupName: string, workspaceName:
-        string, name: string, body: DatastoreData, options?:
+        string, name: string, body: Datastore, options?:
         DatastoresCreateOrUpdateOptionalParams):
         Promise<DatastoresCreateOrUpdateResponse>
       parameters:
@@ -35,7 +35,7 @@ methods:
           type: string
           description: Datastore name.
         - id: body
-          type: <xref uid="@azure/arm-machinelearning.DatastoreData" />
+          type: <xref uid="@azure/arm-machinelearning.Datastore" />
           description: Datastore entity to create or update.
         - id: options
           type: >-
@@ -124,7 +124,7 @@ methods:
       content: >-
         function list(resourceGroupName: string, workspaceName: string,
         options?: DatastoresListOptionalParams):
-        PagedAsyncIterableIterator<DatastoreData>
+        PagedAsyncIterableIterator<Datastore>
       parameters:
         - id: resourceGroupName
           type: string
@@ -142,7 +142,7 @@ methods:
         description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-machinelearning.DatastoreData" />&gt;
+          uid="@azure/arm-machinelearning.Datastore" />&gt;
   - name: 'listSecrets(string, string, string, DatastoresListSecretsOptionalParams)'
     uid: '@azure/arm-machinelearning.Datastores.listSecrets'
     package: '@azure/arm-machinelearning'

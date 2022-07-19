@@ -122,6 +122,23 @@ properties:
       return:
         description: ''
         type: string
+  - name: identifier
+    uid: '@azure/service-bus.ServiceBusClient.identifier'
+    package: '@azure/service-bus'
+    summary: >-
+      ID to identify this client which can be specified when creating an
+      instance of this client.
+
+      If not specified, a unique one will be generated.
+    fullName: identifier
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'identifier: string'
+      return:
+        description: ''
+        type: string
 methods:
   - name: 'acceptNextSession(string, ServiceBusSessionReceiverOptions)'
     uid: '@azure/service-bus.ServiceBusClient.acceptNextSession'

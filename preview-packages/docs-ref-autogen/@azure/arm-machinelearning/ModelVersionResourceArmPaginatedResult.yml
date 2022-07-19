@@ -33,7 +33,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'value?: ModelVersionData[]'
+      content: 'value?: ModelVersion[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-machinelearning.ModelVersionData" />[]'
+        type: '<xref uid="@azure/arm-machinelearning.ModelVersion" />[]'

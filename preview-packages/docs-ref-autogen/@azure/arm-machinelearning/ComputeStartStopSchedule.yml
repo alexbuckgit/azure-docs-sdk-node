@@ -59,13 +59,13 @@ properties:
   - name: schedule
     uid: '@azure/arm-machinelearning.ComputeStartStopSchedule.schedule'
     package: '@azure/arm-machinelearning'
-    summary: Base definition of a schedule
+    summary: ''
     fullName: schedule
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'schedule?: ScheduleBaseUnion'
+      content: 'schedule?: ScheduleBase'
       return:
         description: ''
-        type: <xref uid="@azure/arm-machinelearning.ScheduleBaseUnion" />
+        type: <xref uid="@azure/arm-machinelearning.ScheduleBase" />

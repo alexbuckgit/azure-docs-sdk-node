@@ -22,6 +22,5 @@ syntax: |
     privateEndpointConnections?: PrivateEndpointConnection[],
     provisioningState?: DomainProvisioningState,
     publicNetworkAccess?: PublicNetworkAccess,
-    sku?: ResourceSku,
     systemData?: SystemData,
   }

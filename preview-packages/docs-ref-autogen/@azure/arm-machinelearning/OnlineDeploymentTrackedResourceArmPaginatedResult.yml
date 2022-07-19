@@ -35,7 +35,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'value?: OnlineDeploymentData[]'
+      content: 'value?: OnlineDeployment[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-machinelearning.OnlineDeploymentData" />[]'
+        type: '<xref uid="@azure/arm-machinelearning.OnlineDeployment" />[]'

@@ -1,0 +1,50 @@
+### YamlMime:TSPackage
+uid: '@azure/api-management-custom-widgets-scaffolder'
+name: '@azure/api-management-custom-widgets-scaffolder'
+summary: ''
+type: package
+interfaces:
+  - '@azure/api-management-custom-widgets-scaffolder.TCustomWidgetCommonConfig'
+  - '@azure/api-management-custom-widgets-scaffolder.TDeploymentConfig'
+  - '@azure/api-management-custom-widgets-scaffolder.TOptions'
+typeAliases:
+  - '@azure/api-management-custom-widgets-scaffolder.TScaffoldTech'
+functions:
+  - name: 'generateProject(TCustomWidgetCommonConfig, TDeploymentConfig, TOptions)'
+    uid: '@azure/api-management-custom-widgets-scaffolder.generateProject'
+    package: '@azure/api-management-custom-widgets-scaffolder'
+    summary: >-
+      Generates a scaffold project of Custom widget for API Managements' Dev
+      Portal.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateProject(widgetConfig: TCustomWidgetCommonConfig,
+        deploymentConfig: TDeploymentConfig, options?: TOptions): Promise<void>
+      parameters:
+        - id: widgetConfig
+          type: >-
+            <xref
+            uid="@azure/api-management-custom-widgets-scaffolder.TCustomWidgetCommonConfig"
+            />
+          description: >-
+            JSON object with data required by DevPortal to handle a widget
+            integration.
+        - id: deploymentConfig
+          type: >-
+            <xref
+            uid="@azure/api-management-custom-widgets-scaffolder.TDeploymentConfig"
+            />
+          description: JSON object with data for deployment.
+        - id: options
+          type: >-
+            <xref uid="@azure/api-management-custom-widgets-scaffolder.TOptions"
+            />
+          description: >
+            JSON object with other data, which will not be stored in the
+            DevPortal.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;

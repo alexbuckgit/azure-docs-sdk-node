@@ -1,0 +1,16 @@
+### YamlMime:TSTypeAlias
+name: NetAppAccount
+uid: '@azure/arm-netapp.NetAppAccount'
+package: '@azure/arm-netapp'
+summary: NetApp account resource
+fullName: NetAppAccount
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type NetAppAccount = TrackedResource & {
+    activeDirectories?: ActiveDirectory[],
+    encryption?: AccountEncryption,
+    etag?: undefined | string,
+    provisioningState?: undefined | string,
+  }

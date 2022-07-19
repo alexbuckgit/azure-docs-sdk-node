@@ -122,10 +122,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'spacecraft?: ResourceReference'
+      content: 'spacecraft?: AvailableContactsSpacecraft'
       return:
         description: ''
-        type: <xref uid="@azure/arm-orbital.ResourceReference" />
+        type: <xref uid="@azure/arm-orbital.AvailableContactsSpacecraft" />
   - name: startAzimuthDegrees
     uid: '@azure/arm-orbital.AvailableContacts.startAzimuthDegrees'
     package: '@azure/arm-orbital'

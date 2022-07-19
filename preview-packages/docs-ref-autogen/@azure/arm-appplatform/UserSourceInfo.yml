@@ -22,12 +22,12 @@ properties:
     syntax:
       content: >-
         type: "UploadedUserSourceInfo" | "Jar" | "Source" | "NetCoreZip" |
-        "BuildResult" | "Container"
+        "BuildResult"
       return:
         description: ''
         type: >-
           "UploadedUserSourceInfo" | "Jar" | "Source" | "NetCoreZip" |
-          "BuildResult" | "Container"
+          "BuildResult"
   - name: version
     uid: '@azure/arm-appplatform.UserSourceInfo.version'
     package: '@azure/arm-appplatform'

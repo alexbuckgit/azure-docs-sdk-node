@@ -1,0 +1,19 @@
+### YamlMime:TSTypeAlias
+name: SnapshotPolicy
+uid: '@azure/arm-netapp.SnapshotPolicy'
+package: '@azure/arm-netapp'
+summary: Snapshot policy information
+fullName: SnapshotPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type SnapshotPolicy = TrackedResource & {
+    dailySchedule?: DailySchedule,
+    enabled?: undefined | false | true,
+    etag?: undefined | string,
+    hourlySchedule?: HourlySchedule,
+    monthlySchedule?: MonthlySchedule,
+    provisioningState?: undefined | string,
+    weeklySchedule?: WeeklySchedule,
+  }

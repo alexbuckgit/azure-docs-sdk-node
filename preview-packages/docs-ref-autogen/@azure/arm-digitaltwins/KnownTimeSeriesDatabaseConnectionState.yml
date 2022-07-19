@@ -52,6 +52,10 @@ fields:
     uid: '@azure/arm-digitaltwins.KnownTimeSeriesDatabaseConnectionState.Suspending'
     package: '@azure/arm-digitaltwins'
     summary: ''
+  - name: Updating
+    uid: '@azure/arm-digitaltwins.KnownTimeSeriesDatabaseConnectionState.Updating'
+    package: '@azure/arm-digitaltwins'
+    summary: ''
   - name: Warning
     uid: '@azure/arm-digitaltwins.KnownTimeSeriesDatabaseConnectionState.Warning'
     package: '@azure/arm-digitaltwins'

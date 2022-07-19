@@ -43,6 +43,32 @@ constructors:
           description: |
             The parameter options
 properties:
+  - name: $host
+    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.$host'
+    package: '@azure/arm-webpubsub'
+    summary: ''
+    fullName: $host
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$host: string'
+      return:
+        description: ''
+        type: string
+  - name: apiVersion
+    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.apiVersion'
+    package: '@azure/arm-webpubsub'
+    summary: ''
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion: string'
+      return:
+        description: ''
+        type: string
   - name: operations
     uid: '@azure/arm-webpubsub.WebPubSubManagementClient.operations'
     package: '@azure/arm-webpubsub'
@@ -56,6 +82,19 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-webpubsub.Operations" />
+  - name: subscriptionId
+    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.subscriptionId'
+    package: '@azure/arm-webpubsub'
+    summary: ''
+    fullName: subscriptionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'subscriptionId: string'
+      return:
+        description: ''
+        type: string
   - name: usages
     uid: '@azure/arm-webpubsub.WebPubSubManagementClient.usages'
     package: '@azure/arm-webpubsub'
@@ -82,6 +121,19 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-webpubsub.WebPubSub" />
+  - name: webPubSubHubs
+    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.webPubSubHubs'
+    package: '@azure/arm-webpubsub'
+    summary: ''
+    fullName: webPubSubHubs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'webPubSubHubs: WebPubSubHubs'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-webpubsub.WebPubSubHubs" />
   - name: webPubSubPrivateEndpointConnections
     uid: >-
       @azure/arm-webpubsub.WebPubSubManagementClient.webPubSubPrivateEndpointConnections
@@ -129,32 +181,6 @@ properties:
           <xref uid="@azure/arm-webpubsub.WebPubSubSharedPrivateLinkResources"
           />
 inheritedProperties:
-  - name: $host
-    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.$host'
-    package: '@azure/arm-webpubsub'
-    summary: ''
-    fullName: $host
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: '$host: string'
-      return:
-        description: ''
-        type: string
-  - name: apiVersion
-    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.apiVersion'
-    package: '@azure/arm-webpubsub'
-    summary: ''
-    fullName: apiVersion
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'apiVersion: string'
-      return:
-        description: ''
-        type: string
   - name: pipeline
     uid: '@azure/arm-webpubsub.WebPubSubManagementClient.pipeline'
     package: '@azure/arm-webpubsub'
@@ -168,19 +194,6 @@ inheritedProperties:
       return:
         description: ''
         type: Pipeline
-  - name: subscriptionId
-    uid: '@azure/arm-webpubsub.WebPubSubManagementClient.subscriptionId'
-    package: '@azure/arm-webpubsub'
-    summary: ''
-    fullName: subscriptionId
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'subscriptionId: string'
-      return:
-        description: ''
-        type: string
 inheritedMethods:
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
     uid: '@azure/arm-webpubsub.WebPubSubManagementClient.sendOperationRequest'
@@ -224,4 +237,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-webpubsub.WebPubSubManagementClientContext" />
+extends: ServiceClient

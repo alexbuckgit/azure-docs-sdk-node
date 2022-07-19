@@ -34,10 +34,10 @@ properties:
     isDeprecated: false
     syntax:
       content: >-
-        jobInputType: "MLTable" | "CustomModel" | "Literal" | "MLFlowModel" |
-        "TritonModel" | "UriFile" | "UriFolder"
+        jobInputType: "custom_model" | "literal" | "mlflow_model" | "mltable" |
+        "triton_model" | "uri_file" | "uri_folder"
       return:
         description: ''
         type: >-
-          "MLTable" | "CustomModel" | "Literal" | "MLFlowModel" | "TritonModel"
-          | "UriFile" | "UriFolder"
+          "custom_model" | "literal" | "mlflow_model" | "mltable" |
+          "triton_model" | "uri_file" | "uri_folder"

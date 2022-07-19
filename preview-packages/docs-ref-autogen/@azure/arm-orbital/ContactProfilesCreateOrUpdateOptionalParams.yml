@@ -77,6 +77,39 @@ properties:
       return:
         description: ''
         type: undefined | string
+  - name: networkConfiguration
+    uid: >-
+      @azure/arm-orbital.ContactProfilesCreateOrUpdateOptionalParams.networkConfiguration
+    package: '@azure/arm-orbital'
+    summary: Network configuration of customer virtual network.
+    fullName: networkConfiguration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'networkConfiguration?: ContactProfilesPropertiesNetworkConfiguration'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure/arm-orbital.ContactProfilesPropertiesNetworkConfiguration"
+          />
+  - name: provisioningState
+    uid: >-
+      @azure/arm-orbital.ContactProfilesCreateOrUpdateOptionalParams.provisioningState
+    package: '@azure/arm-orbital'
+    summary: 'The current state of the resource''s creation, deletion, or modification'
+    fullName: provisioningState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provisioningState?: ContactProfilesPropertiesProvisioningState'
+      return:
+        description: ''
+        type: >-
+          <xref
+          uid="@azure/arm-orbital.ContactProfilesPropertiesProvisioningState" />
   - name: resumeFrom
     uid: '@azure/arm-orbital.ContactProfilesCreateOrUpdateOptionalParams.resumeFrom'
     package: '@azure/arm-orbital'

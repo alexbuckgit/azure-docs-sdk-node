@@ -14,3 +14,7 @@ syntax: |
     | "succeeded"
     | "failed"
     | "providerCancelled"
+    | "Succeeded"
+    | "Canceled"
+    | "Failed"
+    | "Running"

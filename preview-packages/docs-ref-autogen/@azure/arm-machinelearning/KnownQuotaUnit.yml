@@ -13,4 +13,4 @@ fields:
   - name: Count
     uid: '@azure/arm-machinelearning.KnownQuotaUnit.Count'
     package: '@azure/arm-machinelearning'
-    summary: ''
+    summary: Count

@@ -10,7 +10,6 @@ isDeprecated: false
 syntax: |
   type VerifiedPartner = Resource & {
     organizationName?: undefined | string,
-    partnerDestinationDetails?: PartnerDetails,
     partnerDisplayName?: undefined | string,
     partnerRegistrationImmutableId?: undefined | string,
     partnerTopicDetails?: PartnerDetails,

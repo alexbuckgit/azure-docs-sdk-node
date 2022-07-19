@@ -19,7 +19,7 @@ methods:
     syntax:
       content: >-
         function get(options?: GetTransactionStatusParameters):
-        Promise<GetTransactionStatus200Response |
+        StreamableMethod<GetTransactionStatus200Response |
         GetTransactionStatusdefaultResponse>
       parameters:
         - id: options
@@ -31,7 +31,7 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetTransactionStatus200Response"
           /> | <xref
           uid="@azure-rest/confidential-ledger.GetTransactionStatusdefaultResponse"

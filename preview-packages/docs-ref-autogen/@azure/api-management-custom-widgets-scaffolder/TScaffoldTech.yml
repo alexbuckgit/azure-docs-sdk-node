@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: TScaffoldTech
+uid: '@azure/api-management-custom-widgets-scaffolder.TScaffoldTech'
+package: '@azure/api-management-custom-widgets-scaffolder'
+summary: All supported technologies to scaffold a widget in.
+fullName: TScaffoldTech
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: |
+  type TScaffoldTech = "typescript" | "react"

@@ -35,7 +35,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'value?: BatchDeploymentData[]'
+      content: 'value?: BatchDeployment[]'
       return:
         description: ''
-        type: '<xref uid="@azure/arm-machinelearning.BatchDeploymentData" />[]'
+        type: '<xref uid="@azure/arm-machinelearning.BatchDeployment" />[]'

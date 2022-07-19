@@ -26,6 +26,11 @@ fields:
     uid: '@azure/arm-eventgrid.KnownChannelProvisioningState.Failed'
     package: '@azure/arm-eventgrid'
     summary: ''
+  - name: IdleDueToMirroredPartnerTopicDeletion
+    uid: >-
+      @azure/arm-eventgrid.KnownChannelProvisioningState.IdleDueToMirroredPartnerTopicDeletion
+    package: '@azure/arm-eventgrid'
+    summary: ''
   - name: Succeeded
     uid: '@azure/arm-eventgrid.KnownChannelProvisioningState.Succeeded'
     package: '@azure/arm-eventgrid'

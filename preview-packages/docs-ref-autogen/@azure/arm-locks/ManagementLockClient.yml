@@ -36,33 +36,6 @@ constructors:
           description: |
             The parameter options
 properties:
-  - name: authorizationOperations
-    uid: '@azure/arm-locks.ManagementLockClient.authorizationOperations'
-    package: '@azure/arm-locks'
-    summary: ''
-    fullName: authorizationOperations
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'authorizationOperations: AuthorizationOperations'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-locks.AuthorizationOperations" />
-  - name: managementLocks
-    uid: '@azure/arm-locks.ManagementLockClient.managementLocks'
-    package: '@azure/arm-locks'
-    summary: ''
-    fullName: managementLocks
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'managementLocks: ManagementLocks'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-locks.ManagementLocks" />
-inheritedProperties:
   - name: $host
     uid: '@azure/arm-locks.ManagementLockClient.$host'
     package: '@azure/arm-locks'
@@ -89,19 +62,32 @@ inheritedProperties:
       return:
         description: ''
         type: string
-  - name: pipeline
-    uid: '@azure/arm-locks.ManagementLockClient.pipeline'
+  - name: authorizationOperations
+    uid: '@azure/arm-locks.ManagementLockClient.authorizationOperations'
     package: '@azure/arm-locks'
-    summary: The pipeline used by this client to make requests
-    fullName: pipeline
+    summary: ''
+    fullName: authorizationOperations
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'pipeline: Pipeline'
+      content: 'authorizationOperations: AuthorizationOperations'
       return:
         description: ''
-        type: Pipeline
+        type: <xref uid="@azure/arm-locks.AuthorizationOperations" />
+  - name: managementLocks
+    uid: '@azure/arm-locks.ManagementLockClient.managementLocks'
+    package: '@azure/arm-locks'
+    summary: ''
+    fullName: managementLocks
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'managementLocks: ManagementLocks'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-locks.ManagementLocks" />
   - name: subscriptionId
     uid: '@azure/arm-locks.ManagementLockClient.subscriptionId'
     package: '@azure/arm-locks'
@@ -115,6 +101,20 @@ inheritedProperties:
       return:
         description: ''
         type: string
+inheritedProperties:
+  - name: pipeline
+    uid: '@azure/arm-locks.ManagementLockClient.pipeline'
+    package: '@azure/arm-locks'
+    summary: The pipeline used by this client to make requests
+    fullName: pipeline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pipeline: Pipeline'
+      return:
+        description: ''
+        type: Pipeline
 inheritedMethods:
   - name: 'sendOperationRequest<T>(OperationArguments, OperationSpec)'
     uid: '@azure/arm-locks.ManagementLockClient.sendOperationRequest'
@@ -158,4 +158,4 @@ inheritedMethods:
       return:
         description: ''
         type: Promise&lt;PipelineResponse&gt;
-extends: <xref uid="@azure/arm-locks.ManagementLockClientContext" />
+extends: ServiceClient

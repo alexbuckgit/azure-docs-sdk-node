@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: ConfidentialLedgerError'
+      content: 'body: ConfidentialLedgerErrorOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/confidential-ledger.ConfidentialLedgerError" />
+        type: >-
+          <xref
+          uid="@azure-rest/confidential-ledger.ConfidentialLedgerErrorOutput" />
   - name: status
     uid: '@azure-rest/confidential-ledger.DeleteUserdefaultResponse.status'
     package: '@azure-rest/confidential-ledger'
@@ -31,10 +33,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'status: "500"'
+      content: 'status: string'
       return:
         description: ''
-        type: '"500"'
+        type: string
 inheritedProperties:
   - name: headers
     uid: '@azure-rest/confidential-ledger.DeleteUserdefaultResponse.headers'

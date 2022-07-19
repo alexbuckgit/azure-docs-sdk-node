@@ -56,32 +56,6 @@ properties:
       return:
         description: ''
         type: string
-  - name: apiPortalCustomDomains
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.apiPortalCustomDomains'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: apiPortalCustomDomains
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'apiPortalCustomDomains: ApiPortalCustomDomains'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.ApiPortalCustomDomains" />
-  - name: apiPortals
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.apiPortals'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: apiPortals
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'apiPortals: ApiPortals'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.ApiPortals" />
   - name: apiVersion
     uid: '@azure/arm-appplatform.AppPlatformManagementClient.apiVersion'
     package: '@azure/arm-appplatform'
@@ -238,45 +212,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-appplatform.Deployments" />
-  - name: gatewayCustomDomains
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.gatewayCustomDomains'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: gatewayCustomDomains
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'gatewayCustomDomains: GatewayCustomDomains'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.GatewayCustomDomains" />
-  - name: gatewayRouteConfigs
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.gatewayRouteConfigs'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: gatewayRouteConfigs
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'gatewayRouteConfigs: GatewayRouteConfigs'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.GatewayRouteConfigs" />
-  - name: gateways
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.gateways'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: gateways
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'gateways: Gateways'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.Gateways" />
   - name: monitoringSettings
     uid: '@azure/arm-appplatform.AppPlatformManagementClient.monitoringSettings'
     package: '@azure/arm-appplatform'
@@ -355,19 +290,6 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-appplatform.Skus" />
-  - name: storages
-    uid: '@azure/arm-appplatform.AppPlatformManagementClient.storages'
-    package: '@azure/arm-appplatform'
-    summary: ''
-    fullName: storages
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'storages: Storages'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-appplatform.Storages" />
   - name: subscriptionId
     uid: '@azure/arm-appplatform.AppPlatformManagementClient.subscriptionId'
     package: '@azure/arm-appplatform'

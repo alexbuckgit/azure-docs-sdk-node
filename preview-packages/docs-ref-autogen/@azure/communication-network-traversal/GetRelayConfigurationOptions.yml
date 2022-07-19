@@ -64,6 +64,23 @@ inheritedProperties:
       return:
         description: ''
         type: AbortSignalLike
+  - name: onResponse
+    uid: >-
+      @azure/communication-network-traversal.GetRelayConfigurationOptions.onResponse
+    package: '@azure/communication-network-traversal'
+    summary: |-
+      A function to be called each time a response is received from the server
+      while performing the requested operation.
+      May be called multiple times.
+    fullName: onResponse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onResponse?: RawResponseCallback'
+      return:
+        description: ''
+        type: RawResponseCallback
   - name: requestOptions
     uid: >-
       @azure/communication-network-traversal.GetRelayConfigurationOptions.requestOptions
@@ -78,6 +95,20 @@ inheritedProperties:
       return:
         description: ''
         type: OperationRequestOptions
+  - name: serializerOptions
+    uid: >-
+      @azure/communication-network-traversal.GetRelayConfigurationOptions.serializerOptions
+    package: '@azure/communication-network-traversal'
+    summary: Options to override serialization/de-serialization behavior.
+    fullName: serializerOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'serializerOptions?: SerializerOptions'
+      return:
+        description: ''
+        type: SerializerOptions
   - name: tracingOptions
     uid: >-
       @azure/communication-network-traversal.GetRelayConfigurationOptions.tracingOptions

@@ -20,11 +20,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: ConfidentialLedgerEnclaves'
+      content: 'body: ConfidentialLedgerEnclavesOutput'
       return:
         description: ''
         type: >-
-          <xref uid="@azure-rest/confidential-ledger.ConfidentialLedgerEnclaves"
+          <xref
+          uid="@azure-rest/confidential-ledger.ConfidentialLedgerEnclavesOutput"
           />
   - name: status
     uid: '@azure-rest/confidential-ledger.GetEnclaveQuotes200Response.status'

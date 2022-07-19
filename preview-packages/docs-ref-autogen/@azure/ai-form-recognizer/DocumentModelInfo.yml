@@ -1,0 +1,91 @@
+### YamlMime:TSType
+name: DocumentModelInfo
+uid: '@azure/ai-form-recognizer.DocumentModelInfo'
+package: '@azure/ai-form-recognizer'
+summary: Document Model info.
+fullName: DocumentModelInfo
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: docTypes
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.docTypes'
+    package: '@azure/ai-form-recognizer'
+    summary: Supported document types.
+    fullName: docTypes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'docTypes?: [key: string]: DocTypeInfo'
+      return:
+        description: ''
+        type: '[key: string]\: <xref uid="@azure/ai-form-recognizer.DocTypeInfo" />'
+inheritedProperties:
+  - name: apiVersion
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.apiVersion'
+    package: '@azure/ai-form-recognizer'
+    summary: API version used to create this document model.
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion?: string'
+      return:
+        description: ''
+        type: string
+  - name: createdDateTime
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.createdDateTime'
+    package: '@azure/ai-form-recognizer'
+    summary: Date and time (UTC) when the document model was created.
+    fullName: createdDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createdDateTime: Date'
+      return:
+        description: ''
+        type: Date
+  - name: description
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.description'
+    package: '@azure/ai-form-recognizer'
+    summary: Document Model description.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        description: ''
+        type: string
+  - name: modelId
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.modelId'
+    package: '@azure/ai-form-recognizer'
+    summary: Unique document model name.
+    fullName: modelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelId: string'
+      return:
+        description: ''
+        type: string
+  - name: tags
+    uid: '@azure/ai-form-recognizer.DocumentModelInfo.tags'
+    package: '@azure/ai-form-recognizer'
+    summary: List of key-value tag attributes associated with the document model.
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: [key: string]: string'
+      return:
+        description: ''
+        type: '[key: string]\: string'
+extends: <xref uid="@azure/ai-form-recognizer.DocumentModelSummary" />

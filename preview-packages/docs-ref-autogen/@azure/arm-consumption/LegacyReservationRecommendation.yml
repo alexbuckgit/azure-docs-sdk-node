@@ -20,7 +20,7 @@ syntax: |
     recommendedQuantity?: undefined | number,
     recommendedQuantityNormalized?: undefined | number,
     resourceType?: undefined | string,
-    scope?: undefined | string,
+    scope: string,
     skuProperties?: SkuProperty[],
     term?: undefined | string,
     totalCostWithReservedInstances?: undefined | number,

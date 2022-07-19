@@ -83,7 +83,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'status?: SslConfigurationStatus'
+      content: 'status?: SslConfigStatus'
       return:
         description: ''
-        type: <xref uid="@azure/arm-machinelearning.SslConfigurationStatus" />
+        type: <xref uid="@azure/arm-machinelearning.SslConfigStatus" />

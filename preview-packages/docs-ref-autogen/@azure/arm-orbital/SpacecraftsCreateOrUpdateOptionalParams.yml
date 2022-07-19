@@ -35,6 +35,22 @@ properties:
       return:
         description: ''
         type: undefined | string
+  - name: provisioningState
+    uid: >-
+      @azure/arm-orbital.SpacecraftsCreateOrUpdateOptionalParams.provisioningState
+    package: '@azure/arm-orbital'
+    summary: 'The current state of the resource''s creation, deletion, or modification'
+    fullName: provisioningState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provisioningState?: SpacecraftsPropertiesProvisioningState'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure/arm-orbital.SpacecraftsPropertiesProvisioningState"
+          />
   - name: resumeFrom
     uid: '@azure/arm-orbital.SpacecraftsCreateOrUpdateOptionalParams.resumeFrom'
     package: '@azure/arm-orbital'

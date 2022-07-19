@@ -10,7 +10,7 @@ isDeprecated: false
 type: interface
 methods:
   - name: >-
-      createOrUpdate(string, string, string, EnvironmentContainerData,
+      createOrUpdate(string, string, string, EnvironmentContainer,
       EnvironmentContainersCreateOrUpdateOptionalParams)
     uid: '@azure/arm-machinelearning.EnvironmentContainers.createOrUpdate'
     package: '@azure/arm-machinelearning'
@@ -21,7 +21,7 @@ methods:
     syntax:
       content: >-
         function createOrUpdate(resourceGroupName: string, workspaceName:
-        string, name: string, body: EnvironmentContainerData, options?:
+        string, name: string, body: EnvironmentContainer, options?:
         EnvironmentContainersCreateOrUpdateOptionalParams):
         Promise<EnvironmentContainersCreateOrUpdateResponse>
       parameters:
@@ -35,7 +35,7 @@ methods:
           type: string
           description: Container name. This is case-sensitive.
         - id: body
-          type: <xref uid="@azure/arm-machinelearning.EnvironmentContainerData" />
+          type: <xref uid="@azure/arm-machinelearning.EnvironmentContainer" />
           description: Container entity to create or update.
         - id: options
           type: >-
@@ -128,7 +128,7 @@ methods:
       content: >-
         function list(resourceGroupName: string, workspaceName: string,
         options?: EnvironmentContainersListOptionalParams):
-        PagedAsyncIterableIterator<EnvironmentContainerData>
+        PagedAsyncIterableIterator<EnvironmentContainer>
       parameters:
         - id: resourceGroupName
           type: string
@@ -147,4 +147,4 @@ methods:
         description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-machinelearning.EnvironmentContainerData" />&gt;
+          uid="@azure/arm-machinelearning.EnvironmentContainer" />&gt;

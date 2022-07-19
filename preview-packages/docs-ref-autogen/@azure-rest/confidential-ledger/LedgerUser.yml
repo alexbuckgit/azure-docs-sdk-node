@@ -18,13 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'assignedRole: ConfidentialLedgerUserRoleName'
+      content: 'assignedRole: "Administrator" | "Contributor" | "Reader"'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/confidential-ledger.ConfidentialLedgerUserRoleName"
-          />
+        type: '"Administrator" | "Contributor" | "Reader"'
   - name: userId
     uid: '@azure-rest/confidential-ledger.LedgerUser.userId'
     package: '@azure-rest/confidential-ledger'

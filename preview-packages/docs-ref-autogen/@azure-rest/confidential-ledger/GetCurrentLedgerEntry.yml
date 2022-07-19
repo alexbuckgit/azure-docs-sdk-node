@@ -12,14 +12,14 @@ methods:
   - name: get(GetCurrentLedgerEntryParameters)
     uid: '@azure-rest/confidential-ledger.GetCurrentLedgerEntry.get'
     package: '@azure-rest/confidential-ledger'
-    summary: A sub-ledger id may optionally be specified.
+    summary: A collection id may optionally be specified.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function get(options?: GetCurrentLedgerEntryParameters):
-        Promise<GetCurrentLedgerEntry200Response |
+        StreamableMethod<GetCurrentLedgerEntry200Response |
         GetCurrentLedgerEntrydefaultResponse>
       parameters:
         - id: options
@@ -31,7 +31,7 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetCurrentLedgerEntry200Response"
           /> | <xref
           uid="@azure-rest/confidential-ledger.GetCurrentLedgerEntrydefaultResponse"

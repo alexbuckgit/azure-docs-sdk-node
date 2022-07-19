@@ -23,10 +23,9 @@ properties:
       content: >-
         endpointType: "WebHook" | "EventHub" | "StorageQueue" |
         "HybridConnection" | "ServiceBusQueue" | "ServiceBusTopic" |
-        "AzureFunction" | "PartnerDestination"
+        "AzureFunction"
       return:
         description: ''
         type: >-
           "WebHook" | "EventHub" | "StorageQueue" | "HybridConnection" |
-          "ServiceBusQueue" | "ServiceBusTopic" | "AzureFunction" |
-          "PartnerDestination"
+          "ServiceBusQueue" | "ServiceBusTopic" | "AzureFunction"

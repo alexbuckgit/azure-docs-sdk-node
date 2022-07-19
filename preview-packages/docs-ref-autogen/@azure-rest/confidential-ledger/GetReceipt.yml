@@ -19,7 +19,7 @@ methods:
     syntax:
       content: >-
         function get(options?: GetReceiptParameters):
-        Promise<GetReceipt200Response | GetReceiptdefaultResponse>
+        StreamableMethod<GetReceipt200Response | GetReceiptdefaultResponse>
       parameters:
         - id: options
           type: <xref uid="@azure-rest/confidential-ledger.GetReceiptParameters" />
@@ -27,6 +27,6 @@ methods:
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
+          StreamableMethod&lt;<xref
           uid="@azure-rest/confidential-ledger.GetReceipt200Response" /> | <xref
           uid="@azure-rest/confidential-ledger.GetReceiptdefaultResponse" />&gt;
