@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/api-management-custom-widgets-scaffolder",
+  "Version": "1.0.0-alpha.20220712.6",
+  "DevVersion": "1.0.0-alpha.20220719.4",
+  "DirectoryPath": "sdk/apimanagement/api-management-custom-widgets-scaffolder",
+  "ServiceDirectory": "apimanagement",
+  "ReadMePath": "sdk/apimanagement/api-management-custom-widgets-scaffolder/README.md",
+  "ChangeLogPath": "sdk/apimanagement/api-management-custom-widgets-scaffolder/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-api-management-custom-widgets-scaffolder",
+  "ReleaseStatus": "2022-07-12"
+}
