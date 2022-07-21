@@ -1,17 +1,17 @@
 ---
-title: Azure Traffic Manager modules for JavaScript
-description: Azure Traffic Manager modules for JavaScript reference
-author: KumudD
-ms.author: kumud
-manager: jeconnoc
-ms.date: 07/18/2017
 ms.topic: reference
-ms.prod: azure
+ms.devlang: javascript
+ms.author: jeffish
+ms.data: 07/20/2022
+ms.service: trafficmanager
+title: Azure Traffic Manager SDK for JavaScript
+author: xirzec
+description: Reference for Azure Traffic Manager SDK for JavaScript
 ms.technology: azure
-ms.devlang: nodejs
-ms.service: Traffic Manager
+ms.date: 07/18/2017
+ms.prod: azure
+manager: jeconnoc
 ---
-
 # Azure Traffic Manager modules for JavaScript
 
 ## Overview

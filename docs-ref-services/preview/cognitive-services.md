@@ -1,15 +1,15 @@
 ---
-title: Azure Cognitive Services modules for JavaScript
-description: Reference for Azure Cognitive Services modules for JavaScript
-author: brapel
-ms.author: v-brapel
-manager: ehansen
-ms.date: 05/28/2020
 ms.topic: reference
-ms.devlang: nodejs
-ms.service: cognitive-services
+ms.devlang: javascript
+ms.author: jeffish
+ms.data: 07/20/2022
+ms.service: cognitiveservices
+title: Azure Cognitive Services SDK for JavaScript
+author: xirzec
+description: Reference for Azure Cognitive Services SDK for JavaScript
+ms.date: 05/28/2020
+manager: ehansen
 ---
-
 # JavaScript Azure Cognitive Services modules
 
 ## Vision modules
