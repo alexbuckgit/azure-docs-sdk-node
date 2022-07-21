@@ -1,12 +1,12 @@
 ---
-ms.devlang: javascript
-ms.data: 07/20/2022
-title: Azure Deviceupdate SDK for JavaScript
-description: Reference for Azure Deviceupdate SDK for JavaScript
-ms.topic: reference
-ms.service: deviceupdate
-ms.author: jeffish
 author: xirzec
+ms.author: jeffish
+ms.service: deviceupdate
+ms.data: 07/21/2022
+description: Reference for Azure Deviceupdate SDK for JavaScript
+title: Azure Deviceupdate SDK for JavaScript
+ms.topic: reference
+ms.devlang: javascript
 ---
 # Azure Deviceupdate SDK for JavaScript - preview
 

@@ -1,16 +1,17 @@
 ---
-title: Azure Active Directory Modules for Node.js
-description: Reference for Azure Active Directory Modules for Node.js
-author: celestedg
-ms.author: celested
+author: xirzec
+ms.author: jeffish
+ms.service: activedirectory
+ms.data: 07/21/2022
+description: Reference for Azure Active Directory SDK for JavaScript
+title: Azure Active Directory SDK for JavaScript
+ms.topic: reference
+ms.devlang: javascript
 manager: mtillman
 ms.date: 07/18/2017
-ms.topic: reference
 ms.prod: azure
 ms.technology: azure
-ms.devlang: nodejs
 ---
-
 # Azure Active Directory modules for Node.js
 
 ## Overview

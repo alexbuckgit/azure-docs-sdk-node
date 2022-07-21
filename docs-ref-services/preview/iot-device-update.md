@@ -1,12 +1,12 @@
 ---
-ms.devlang: javascript
-ms.data: 07/20/2022
-title: Azure IoT Device Update SDK for JavaScript
-description: Reference for Azure IoT Device Update SDK for JavaScript
-ms.topic: reference
-ms.service: iotdeviceupdate
-ms.author: YoDaMa
 author: YoDaMa
+ms.author: YoDaMa
+ms.service: iotdeviceupdate
+ms.data: 07/21/2022
+description: Reference for Azure IoT Device Update SDK for JavaScript
+title: Azure IoT Device Update SDK for JavaScript
+ms.topic: reference
+ms.devlang: javascript
 ---
 # Azure IoT Device Update SDK for JavaScript - preview
 

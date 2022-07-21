@@ -1,12 +1,12 @@
 ---
-ms.devlang: javascript
-ms.data: 07/20/2022
-title: Azure Peering Service SDK for JavaScript
-description: Reference for Azure Peering Service SDK for JavaScript
-ms.topic: reference
-ms.service: peeringservice
-ms.author: jeffish
 author: xirzec
+ms.author: jeffish
+ms.service: peeringservice
+ms.data: 07/21/2022
+description: Reference for Azure Peering Service SDK for JavaScript
+title: Azure Peering Service SDK for JavaScript
+ms.topic: reference
+ms.devlang: javascript
 ---
 # Azure Peering Service SDK for JavaScript - latest
 

@@ -1,12 +1,12 @@
 ---
-ms.devlang: javascript
-ms.data: 07/20/2022
-title: Azure Notification Hubs SDK for JavaScript
-description: Reference for Azure Notification Hubs SDK for JavaScript
-ms.topic: reference
-ms.service: notificationhubs
-ms.author: jeffish
 author: xirzec
+ms.author: jeffish
+ms.service: notificationhubs
+ms.data: 07/21/2022
+description: Reference for Azure Notification Hubs SDK for JavaScript
+title: Azure Notification Hubs SDK for JavaScript
+ms.topic: reference
+ms.devlang: javascript
 ms.date: 06/15/2022
 ---
 # Azure Notification Hubs modules for JavaScript
